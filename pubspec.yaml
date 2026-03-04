@@ -1,0 +1,67 @@
+name: snapsale
+description: Receipt generator for shop owners.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.2
+
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # PDF Generation
+  pdf: ^3.11.1
+  printing: ^5.13.2
+
+  # Image Export
+  screenshot: ^2.3.0
+  gal: ^2.3.0
+
+  # Subscription / Payment
+  webview_flutter: ^4.10.0
+  connectivity_plus: ^6.1.3
+
+  # Sharing
+  share_plus: ^10.1.2
+
+  # Image Picker (for shop logo)
+  image_picker: ^1.1.2
+
+  # Charts
+  fl_chart: ^0.70.2
+
+  # Typography
+  google_fonts: ^6.2.1
+
+  # Unique IDs
+  uuid: ^4.5.1
+
+  # Date & Number Formatting
+  intl: ^0.19.0
+
+  # Path utilities
+  path_provider: ^2.1.4
+  path: ^1.9.0
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/default_logo.png
